@@ -1,0 +1,89 @@
+{
+  "armer": {
+    "bicepscurl": {
+      "head": "Bicepscurl med stang",
+      "body": "utføres som dof skdjgnx skrjnbgk dof skdjgnx dof skdjgnx skrjnbgk skrjnbgk dof skdjgnx skrjnbgk dof skdjgnx skrjnbgktesdfpxdof skdjgnx skrjnbgk o in ihu huhuhu skdjgnx ",
+      "img": "300.png"
+    },
+    "franskpress": {
+      "head": "franskpress",
+      "body": "utføres som vist på bildet",
+      "img": "300.png"
+    },
+    "triceps": {
+      "head": "triceps",
+      "body": "dips",
+      "img": "300.png"
+    },
+    "tricepspush med stang": {
+      "head": "tricepspush med stang",
+      "body": "qwer",
+      "img": "300.png"
+    }
+  },
+  "skuldre": {
+    "militaerpress": {
+      "head": "militærpress med stang",
+      "body": "utføres som vist på bildet",
+      "img": "300.png"
+    },
+    "sidehev": {
+      "head": "sidehev med hantler",
+      "body": "utføres som vist på bildet",
+      "img": "300.png"
+    }
+  },
+  "bein": {
+    "kneboy": {
+      "head": "militærpress med stang",
+      "body": "utføres som vist på bildet",
+      "img": "300.png"
+    },
+    "markloft": {
+      "head": "sidehev med hantler",
+      "body": "utføres som vist på bildet",
+      "img": "300.png"
+    }
+  },
+  "rygg": {
+    "nedtrekk": {
+      "head": "militærpress med stang",
+      "body": "utføres som vist på bildet",
+      "img": "300.png"
+    },
+    "roing": {
+      "head": "sidehev med hantler",
+      "body": "utføres som vist på bildet",
+      "img": "300.png"
+    }
+  },
+  "mage": {
+    "situps": {
+      "head": "militærpress med stang",
+      "body": "utføres som vist på bildet",
+      "img": "300.png"
+    },
+    "legraise": {
+      "head": "sidehev med hantler",
+      "body": "utføres som vist på bildet",
+      "img": "300.png"
+    }
+  },
+  "bryst": {
+    "benkpress": {
+      "head": "militærpress med stang",
+      "body": "utføres som vist på bildet",
+      "img": "300.png"
+    },
+    "flies": {
+      "head": "sidehev med hantler",
+      "body": "utføres som vist på bildet",
+      "img": "300.png"
+    },
+    "pushup": {
+      "head": "sidehev med hantler",
+      "body": "utføres som vist på bildet",
+      "img": "300.png"
+    }
+  }
+}

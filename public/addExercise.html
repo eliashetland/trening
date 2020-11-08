@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add exercise</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="bodyAdd">
+
+
+    
+    
+
+    <div id="addContainer">
+        <h2 class="valgtGruppe">
+            <select name="muscleGroup" id="MuscleGroup">
+                <option value="armer">Armer</option>
+                <option value="skuldre">Skuldre</option>
+                <option value="bein">Bein</option>
+                <option value="rygg">Rygg</option>
+                <option value="mage">Mage</option>
+                <option value="bryst">Bryst</option>
+            </select>
+        </h2>
+        <div class="expand">
+            <img src="300.png" width="300px" height="300px" class="ovelsebilde">
+            <div class="contentDiv">
+                <h3 class="ovelseH3">
+                    <input type="text" placeholder="Exercise" id="exercise">
+                </h3>
+                <p class="ovelseP">
+                    <textarea type="textarea" placeholder="Description" id="description" rows="6" ></textarea>
+                </p>
+            </div>
+        </div>
+            <div id="addContainer2">
+                <input type="submit" id="submit">
+            
+                <p id="thanks"></p>
+            </div>
+    </div>
+      
+
+
+
+
+
+<script>
+
+        const MuscleGroupEl = document.querySelector('#MuscleGroup');
+        const exerciseEl = document.querySelector('#exercise');
+        const submitEl = document.querySelector('#submit');
+        const thanksEl = document.querySelector('#thanks');
+         const descriptionEl = document.querySelector('#description');
+
+        
+        submitEl.addEventListener("click", () => {
+            let MG = MuscleGroupEl.value;
+            let EC = exerciseEl.value;
+            let DC = descriptionEl.value;
+            
+            if (MG && EC && DC){
+
+            fetch(`/add/${MG}/${EC}/${DC}`)
+                .then(res => res.json())
+                .then((NODEprogram) => {
+                    // console.log(NODEprogram);
+                    thanksEl.innerHTML = `Thanks for submitting ${NODEprogram.exercise} in ${NODEprogram.muscleGroup}`;
+                })
+            }else{
+                thanksEl.innerHTML = `Both Exercise and Description needs content}`;
+            }
+
+        });
+
+
+
+       
+
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+{
+  "armer": {
+    "bicepscurl": {
+      "head": "bicepscurl",
+      "body": "Mangler beskrivelse",
+      "img": "300.png"
+    },
+    "franskpress": {
+      "head": "franskpress",
+      "body": "Mangler beskrivelse",
+      "img": "300.png"
+    }
+  },
+  "skuldre": {
+    "militærpress": {
+      "head": "militærpress",
+      "body": "Mangler beskrivelse",
+      "img": "300.png"
+    },
+    "sidehev": {
+      "head": "sidehev",
+      "body": "Mangler beskrivelse",
+      "img": "300.png"
+    }
+  },
+  "bein": {
+    "knebøy": {
+      "head": "knebøy",
+      "body": "Mangler beskrivelse",
+      "img": "300.png"
+    },
+    "markløft": {
+      "head": "markløft",
+      "body": "Mangler beskrivelse",
+      "img": "300.png"
+    },
+    "Utfall": {
+      "head": "Utfall",
+      "body": "Mangler beskrivelse",
+      "img": "300.png"
+    }
+  },
+  "rygg": {
+    "nedtrekk": {
+      "head": "nedtrekk",
+      "body": "Mangler beskrivelse",
+      "img": "300.png"
+    },
+    "roing": {
+      "head": "roing",
+      "body": "Mangler beskrivelse",
+      "img": "300.png"
+    }
+  },
+  "mage": {
+    "situps": {
+      "head": "situps",
+      "body": "Mangler beskrivelse",
+      "img": "300.png"
+    },
+    "legraise": {
+      "head": "legraise",
+      "body": "Mangler beskrivelse",
+      "img": "300.png"
+    }
+  },
+  "bryst": {
+    "benkpress": {
+      "head": "benkpress",
+      "body": "Mangler beskrivelse",
+      "img": "300.png"
+    },
+    "flies": {
+      "head": "flies",
+      "body": "Mangler beskrivelse",
+      "img": "300.png"
+    },
+    "pushup": {
+      "head": "pushup",
+      "body": "Mangler beskrivelse",
+      "img": "300.png"
+    }
+  }
+}
